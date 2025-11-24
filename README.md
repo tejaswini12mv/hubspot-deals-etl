@@ -25,11 +25,38 @@ hubspot-deals-etl/
 ├── run_etl.py # Main entry point for ETL
 └── .env.example # Environment variables template
 
+
 ---
 
 ## Setup Instructions
 
 1. **Clone the repository**
-```bash
+bash
 git clone https://github.com/tejaswini12mv/hubspot-deals-etl.git
 cd hubspot-deals-etl
+2. **Create Virtual environment**
+python -m venv venv
+venv\Scripts\activate       # Windows
+source venv/bin/activate    # Linux / macOS
+3. **Install dependencies**
+  pip install -r requirements.txt
+4. **Configure environment variables**
+   cp .env.example .env
+HUBSPOT_ACCESS_TOKEN=your_access_token_here
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=hubspotdb
+DB_USER=postgres
+DB_PASSWORD=yourpassword
+DB_SCHEMA=hubspot
+5. **Run ETL Service**
+  python run_etl.py
+ETL Metadata
+
+extracted_at — Timestamp when data was fetched from HubSpot
+
+scan_id — Unique UUID for each ETL batch
+
+loaded_at — Timestamp when data was loaded into PostgreSQL
+7. 
+8. 
