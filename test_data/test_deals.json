@@ -1,0 +1,7 @@
+[
+    {"id": "1001", "properties": {"dealname": "Deal A", "amount": "1000", "pipeline": "default", "stage": "stage1", "hubspot_owner_id": "1", "createdate": "2025-11-01T10:00:00Z", "closedate": "2025-11-10T10:00:00Z"}},
+    {"id": "1002", "properties": {"dealname": "Deal B", "amount": "2000", "pipeline": "default", "stage": "stage2", "hubspot_owner_id": "2", "createdate": "2025-11-02T10:00:00Z", "closedate": "2025-11-11T10:00:00Z"}},
+    {"id": "1003", "properties": {"dealname": "Deal C", "amount": "3000", "pipeline": "default", "stage": "stage3", "hubspot_owner_id": "3", "createdate": "2025-11-03T10:00:00Z", "closedate": "2025-11-12T10:00:00Z"}},
+    {"id": "1004", "properties": {"dealname": "Deal D", "amount": "4000", "pipeline": "default", "stage": "stage4", "hubspot_owner_id": "4", "createdate": "2025-11-04T10:00:00Z", "closedate": "2025-11-13T10:00:00Z"}},
+    {"id": "1005", "properties": {"dealname": "Deal E", "amount": "5000", "pipeline": "default", "stage": "stage5", "hubspot_owner_id": "5", "createdate": "2025-11-05T10:00:00Z", "closedate": "2025-11-14T10:00:00Z"}}
+]

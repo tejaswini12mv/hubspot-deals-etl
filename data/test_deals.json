@@ -1,0 +1,52 @@
+[
+  {
+    "deal_id": 1,
+    "deal_name": "Test Deal 1",
+    "amount": 1000,
+    "pipeline": "default",
+    "stage": "prospect",
+    "owner_id": 101,
+    "created_at": "2025-11-01T10:00:00Z",
+    "closed_at": null
+  },
+  {
+    "deal_id": 2,
+    "deal_name": "Test Deal 2",
+    "amount": 2000,
+    "pipeline": "default",
+    "stage": "negotiation",
+    "owner_id": 102,
+    "created_at": "2025-11-02T11:00:00Z",
+    "closed_at": null
+  },
+  {
+    "deal_id": 3,
+    "deal_name": "Test Deal 3",
+    "amount": 3000,
+    "pipeline": "default",
+    "stage": "closedwon",
+    "owner_id": 103,
+    "created_at": "2025-11-03T12:00:00Z",
+    "closed_at": "2025-11-15T12:00:00Z"
+  },
+  {
+    "deal_id": 4,
+    "deal_name": "Test Deal 4",
+    "amount": 1500,
+    "pipeline": "default",
+    "stage": "closedlost",
+    "owner_id": 104,
+    "created_at": "2025-11-04T10:30:00Z",
+    "closed_at": "2025-11-18T13:00:00Z"
+  },
+  {
+    "deal_id": 5,
+    "deal_name": "Test Deal 5",
+    "amount": 5000,
+    "pipeline": "default",
+    "stage": "prospect",
+    "owner_id": 105,
+    "created_at": "2025-11-05T14:00:00Z",
+    "closed_at": null
+  }
+]
