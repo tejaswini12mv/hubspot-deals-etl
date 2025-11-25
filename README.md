@@ -126,4 +126,52 @@ scan_id — Unique UUID for each ETL batch
 
 loaded_at — Timestamp when data was loaded into PostgreSQL
 
- 
+## Django
+
+SECRET_KEY=replace_me
+DEBUG=True
+
+Database (Postgres example)
+
+DB_ENGINE=django.db.backends.postgresql
+DB_NAME=mydb
+DB_USER=myuser
+DB_PASSWORD=changeme
+DB_HOST=127.0.0.1
+DB_PORT=5432
+
+Django allowed hosts (comma separated)
+
+ALLOWED_HOSTS=localhost,127.0.0.1
+
+## Other
+DJANGO_SETTINGS_MODULE=project.settings
+
+# Quick Swagger (API docs) setup recommendation
+I recommend using **drf-spectacular** (clean, modern) or `drf-yasg`. Quick steps for `drf-spectacular`:
+
+1. Install:
+   ```bash
+   pip install drf-spectacular
+
+
+In settings.py add:
+INSTALLED_APPS += ["drf_spectacular"]
+REST_FRAMEWORK = {
+    "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
+}
+
+
+Add URLs in urls.py:
+from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
+urlpatterns += [
+    path('api/schema/', SpectacularAPIView.as_view(), name='schema'),
+    path('api/docs/', SpectacularSwaggerView.as_view(url_name='schema'), name='swagger-ui'),
+]
+
+## Git commands to push 
+git add .
+git commit -m "Final backend project submission"
+git branch -M main
+git remote add origin https://github.com/<your-username>/<repo-name>.git
+git push -u origin main
