@@ -20,7 +20,7 @@ It extracts deals via the HubSpot API, stores them in PostgreSQL, and supports m
 ## Setup Instructions
 1. Clone the repository:
 ```bash
-git clone https://github.com/tejaswini12mv/hubspot-deals-etl.git
+git clone https://github.com/tejumv/hubspot-deals-etl.git
 cd hubspot-deals-etl
 ```
 2. Create a virtual environment:
@@ -99,7 +99,7 @@ hubspot-deals-etl/
 
 1. **Clone the repository**
 bash
-git clone https://github.com/tejaswini12mv/hubspot-deals-etl.git
+git clone https://github.com/tejumv/hubspot-deals-etl.git
 cd hubspot-deals-etl
 2. **Create Virtual environment**
 python -m venv venv
