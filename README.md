@@ -99,7 +99,7 @@ hubspot-deals-etl/
 
 1. **Clone the repository**
 bash
-git clone https://github.com/tejumv/hubspot-deals-etl.git
+git clone https://github.com/tejaswini325/hubspot-deals-etl.git
 cd hubspot-deals-etl
 2. **Create Virtual environment**
 python -m venv venv
@@ -171,7 +171,7 @@ urlpatterns += [
 
 ## Git commands to push 
 git add .
-git commit -m "Final backend project submission"
+git commit -m "Final backend"
 git branch -M main
-git remote add origin https://github.com/<your-username>/<repo-name>.git
+git remote add origin https://github.com/tejaswini325/hubspot-deals-etl.git
 git push -u origin main
